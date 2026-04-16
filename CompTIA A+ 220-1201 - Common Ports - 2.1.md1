@@ -16,23 +16,23 @@ Networking protocols generally operate using one of two transport layer protocol
 
 ### **Common Ports and Protocols List**
 
-| Port(s) | Protocol | Service Name | Description |
-| :--- | :--- | :--- | :--- |
-| **20 / 21** | TCP | **FTP** (File Transfer Protocol) | Used for transferring files between a client and a server. Port 21 is for **Control** (commands), and Port 20 is for **Data** transfer (Active mode). |
-| **22** | TCP | **SSH** (Secure Shell) | Provides a secure, encrypted terminal connection for remote management. Replaces the insecure Telnet. |
-| **23** | TCP | **Telnet** | An older terminal emulation protocol used for remote access. It is **unencrypted** (clear text) and considered insecure. |
-| **25** | TCP | **SMTP** (Simple Mail Transfer Protocol) | Primarily used for **sending** email from a client to a server or between email servers. |
-| **53** | UDP / TCP | **DNS** (Domain Name System) | Translates human-readable domain names (e.g., google.com) into IP addresses. Uses UDP for queries and TCP for large zone transfers. |
-| **67 / 68** | UDP | **DHCP** (Dynamic Host Configuration Protocol) | Automatically assigns IP addresses, subnet masks, and default gateways to devices. Port 67 is for the **Server**; Port 68 is for the **Client**. |
-| **80** | TCP | **HTTP** (Hypertext Transfer Protocol) | The foundational protocol for the web; used by browsers to request and display web pages. **Unencrypted**. |
-| **110** | TCP | **POP3** (Post Office Protocol v3) | Used to **retrieve** email from a server. Downloads the mail and typically deletes it from the server. |
-| **143** | TCP | **IMAP** (Internet Message Access Protocol) | A more modern protocol for **retrieving** email. Keeps messages on the server, allowing synchronization across multiple devices. |
-| **137-139** | UDP / TCP | **NetBIOS / NetBT** | Used by older Windows systems for local network communication and file sharing (NetBIOS over TCP/IP). |
-| **161 / 162** | UDP | **SNMP** (Simple Network Management Protocol) | Used to monitor and manage network devices (routers, switches). Port 161 is for **Queries**; Port 162 is for **Traps** (alerts). |
-| **389** | TCP | **LDAP** (Lightweight Directory Access Protocol) | Used to query and update directory services (like Microsoft Active Directory) for user authentication and information. |
-| **443** | TCP | **HTTPS** (Hypertext Transfer Protocol Secure) | The secure version of HTTP. Uses TLS/SSL to **encrypt** web traffic. |
-| **445** | TCP | **SMB / CIFS** (Server Message Block) | The standard for Windows file and printer sharing. On modern systems, it runs directly over TCP without NetBIOS. |
-| **3389** | TCP | **RDP** (Remote Desktop Protocol) | A Microsoft proprietary protocol that allows a user to graphically control a remote computer. |
+| Port(s)              | Protocol |     | Service Name |                                     | Description |
+
+| **20 / 21**     |    | TCP |          | **FTP** (File Transfer Protocol)                 | | Used for transferring files between a client and a server. Port 21 is for **Control** (commands), and Port 20 is for **Data** transfer (Active mode). |
+| **22**          |    | TCP |          | **SSH** (Secure Shell)                           | | Provides a secure, encrypted terminal connection for remote management. Replaces the insecure Telnet. |
+| **23**          |    | TCP |          | **Telnet**                                       | | An older terminal emulation protocol used for remote access. It is **unencrypted** (clear text) and considered insecure. |
+| **25**          |    | TCP |          | **SMTP** (Simple Mail Transfer Protocol)         | | Primarily used for **sending** email from a client to a server or between email servers. |
+| **53**          |    | UDP / TCP |    | **DNS** (Domain Name System)                     | | Translates human-readable domain names (e.g., google.com) into IP addresses. Uses UDP for queries and TCP for large zone transfers. |
+| **67 / 68**     |    | UDP |          | **DHCP** (Dynamic Host Configuration Protocol)   | | Automatically assigns IP addresses, subnet masks, and default gateways to devices. Port 67 is for the **Server**; Port 68 is for the **Client**. |
+| **80**          |    | TCP |          | **HTTP** (Hypertext Transfer Protocol)           | | The foundational protocol for the web; used by browsers to request and display web pages. **Unencrypted**. |
+| **110**         |    | TCP |          | **POP3** (Post Office Protocol v3)               | | Used to **retrieve** email from a server. Downloads the mail and typically deletes it from the server. |
+| **143**         |    | TCP |          | **IMAP** (Internet Message Access Protocol)      | | A more modern protocol for **retrieving** email. Keeps messages on the server, allowing synchronization across multiple devices. |
+| **137-139**     |    | UDP / TCP |    | **NetBIOS / NetBT**                              | | Used by older Windows systems for local network communication and file sharing (NetBIOS over TCP/IP). |
+| **161 / 162**   |    | UDP |          | **SNMP** (Simple Network Management Protocol)    | | Used to monitor and manage network devices (routers, switches). Port 161 is for **Queries**; Port 162 is for **Traps** (alerts). |
+| **389**         |    | TCP |          | **LDAP** (Lightweight Directory Access Protocol) | | Used to query and update directory services (like Microsoft Active Directory) for user authentication and information. |
+| **443**         |    | TCP |          | **HTTPS** (Hypertext Transfer Protocol Secure)   | | The secure version of HTTP. Uses TLS/SSL to **encrypt** web traffic. |
+| **445**         |    | TCP |          | **SMB / CIFS** (Server Message Block)            | | The standard for Windows file and printer sharing. On modern systems, it runs directly over TCP without NetBIOS. |
+| **3389**        |    | TCP |          | **RDP** (Remote Desktop Protocol)                | | A Microsoft proprietary protocol that allows a user to graphically control a remote computer. |
 
 ---
 
