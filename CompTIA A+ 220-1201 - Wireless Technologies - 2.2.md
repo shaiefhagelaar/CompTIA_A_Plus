@@ -9,17 +9,15 @@ Wireless networking allows devices to communicate without physical cabling. This
 ## 1. 802.11 (Wi-Fi) Standards
 CompTIA requires you to distinguish between standards based on frequency, speed, and hardware capabilities.
 
-| Standard           | Common Name   | Frequency         | Max Theoretical Speed | Key Features |
+| Standard       | | Common Name      | | Frequency         | | Max Theoretical Speed | | Key Features |
 
-| **802.11b**    | - | N/A           | 2.4 GHz           | 11 Mbps               | Oldest widely used standard; prone to interference. |
-| **802.11a**    | - | N/A           | 5 GHz             | 54 Mbps               | Not compatible with b/g; shorter range than 2.4 GHz. |
-| **802.11g**    | - | N/A           | 2.4 GHz           | 54 Mbps               | Backward compatible with 802.11b. |
-| **802.11n**    | **Wi-Fi 4**       | 2.4 & 5 GHz       | 600 Mbps              | Introduced **MIMO** (Multiple Input, Multiple Output). |
-| **802.11ac**   | **Wi-Fi 5**       | 5 GHz             | 6.9 Gbps              | Introduced **MU-MIMO**; utilizes wider 80/160 MHz channels. |
-| **802.11ax**   | **Wi-Fi 6 / 6E**  | 2.4, 5, 6 GHz     | 9.6 Gbps              | **6E** adds the 6 GHz band; uses **OFDMA** for better efficiency. |
-| **802.11be**   | **Wi-Fi 7**       | 2.4, 5, 6 GHz     | 46 Gbps               | **Extreme High Throughput (EHT)**; 320 MHz channels; 4K QAM. |
-
-
+| **802.11b**    | | N/A              | | 2.4 GHz           | | 11 Mbps               | | Oldest widely used standard; prone to interference. |
+| **802.11a**    | | N/A              | | 5 GHz             | | 54 Mbps               | | Not compatible with b/g; shorter range than 2.4 GHz. |
+| **802.11g**    | | N/A              | | 2.4 GHz           | | 54 Mbps               | | Backward compatible with 802.11b. |
+| **802.11n**    | | **Wi-Fi 4**      | | 2.4 & 5 GHz       | | 600 Mbps              | | Introduced **MIMO** (Multiple Input, Multiple Output). |
+| **802.11ac**   | |**Wi-Fi 5**       | | 5 GHz             | | 6.9 Gbps              | | Introduced **MU-MIMO**; utilizes wider 80/160 MHz channels. |
+| **802.11ax**   | |**Wi-Fi 6 / 6E**  | | 2.4, 5, 6 GHz     | | 9.6 Gbps              | | **6E** adds the 6 GHz band; uses **OFDMA** for better efficiency. |
+| **802.11be**   | |**Wi-Fi 7**       | | 2.4, 5, 6 GHz     | | 46 Gbps               | | **Extreme High Throughput (EHT)**; 320 MHz channels; 4K QAM. |
 
 ---
 
